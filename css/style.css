@@ -1,0 +1,31 @@
+table{
+    top: 65px;
+    position: relative;
+    left: 500px;
+}
+
+.preto{
+    background-color: #000000;
+}
+ 
+td{
+    width: 75px;
+    height: 75px;
+}
+
+#anima{
+    position: absolute;
+    animation: mov-div 10s infinite;
+}
+
+@keyframes mov-div{
+    0%{top: 2px; left: 77px;}
+    15%{top: 152px; left: 77px;}
+    24%{top: 152px; left: 152px;}
+    35%{top: 320px; left: 152px;}
+    55%{top: 320px; left: 227px;}
+    65%{top: 476px; left: 227px;}
+    75%{top: 476px; left: 302px;}
+    85%{top: 476px; left: 452px;}
+    100%{top: 560px; left: 452px;}
+}
